@@ -1,0 +1,148 @@
+/*? ================     GOOGLE FONTS      ================ */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+/*? ================     VARIABLE CSS      ================ */
+:root {
+  --header-height: 3rem;
+
+  /*?=================     COLORS     ===============*/
+  /*! Theme 1  */
+
+  /*  Backgrounds */
+  --t1-clr-bg-main: hsl(222, 26%, 31%);
+  --t1-clr-bg-keypad: hsl(223, 31%, 20%);
+  --t1-clr-bg-result: hsl(224, 36%, 15%);
+
+  /* Keys */
+  --t1-clr-key-del-bg: hsl(225, 21%, 49%);
+  --t1-clr-key-del-bg-hover: hsla(224, 51%, 76%, 1);
+  --t1-clr-key-del-shadow: hsl(224, 28%, 35%);
+
+  --t1-clr-key-enter-bg: hsl(6, 63%, 50%);
+  --t1-clr-key-enter-bg-hover: hsla(6, 93%, 67%, 1);
+  --t1-clr-key-enter-shadow: hsl(6, 70%, 34%);
+
+  --t1-clr-key-bg: hsl(30, 25%, 89%);
+  --t1-clr-key-shadow: hsl(28, 16%, 65%);
+
+  /* Text */
+  --t1-clr-txt-gray: hsl(221, 14%, 31%);
+  --t1-clr-txt-white: hsl(0, 0%, 100%);
+
+  /*?=================== Fonts and typography     ============*/
+
+  --body-font: "League Spartan", sans-serif;
+
+  /* .5rem = 8px | 1rem = 16px ... */
+  --big-fs: 3.5rem;
+  --fs-h1: 2.25rem;
+  --fs-h2: 1.5rem;
+  --fs-h3: 1.25rem;
+  --fs-normal: 2rem;
+  --fs-small: 0.875rem;
+  --fs-xsmall: 0.813rem;
+  --fs-tiny: 0.625rem;
+
+  /*?=================== Font weigth   ============*/
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  /*?=================== Margin   ============*/
+
+  --m-0-25: 0.25rem;
+  --m-0-5: 0.5rem;
+  --m-0-75: 0.75rem;
+  --m-1: 1rem;
+  --m-1-5: 1.5rem;
+  --m-2: 2rem;
+  --m-2-5: 2.5rem;
+  --m-3: 3rem;
+
+  /*?=================== Z Index   ============*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+/*?=================== Responsive typography   ============*/
+@media screen and (max-width: 992px) {
+}
+
+/*?=================== BASE  ============*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--fs-normal);
+}
+
+body {
+  background-color: var(--t1-clr-bg-main);
+  /* color: var(--text-color); */
+}
+main {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*?=================== BASE  ============*/
+
+/*?=================== LAYOUT  ============*/
+
+.container {
+  width: 700px;
+  margin-inline: auto;
+}
+
+/*?=================== BUTTONS  ============*/
+
+/*?=================== BREAKPOINTS ============*/
+
+/* Large devices */
+@media screen and (max-width: 992px) {
+}
+
+/* Medium devices */
+@media screen and (max-width: 768px) {
+}
+
+/* Small devices */
+@media screen and (max-width: 576px) {
+}
+
+/* XSmall devices */
+@media screen and (max-width: 350px) {
+}
